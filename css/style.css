@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 1240px;
+    padding: auto;    
+    align-items: center;
+}
+.header>img{
+    padding: auto;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.num{
+    justify-content: space-between; 
+    align-items: center;
+    padding: auto;
+}
+
+.num>p{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: auto;
+    color: #616161;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav{
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 1440px;
+    height: 70px;
+}
+
+
+
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    height: 490px;
+    width: 100%;
+    background:
+    url("../img/horvat.png") center center no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 104px;
+}
+
+.intro-text{
+    margin: 0 0 0 200px;
+    color:white;
+    border: 1px solid white;
+    width: 250px;
+    height: 45px;
+    padding: 6px 20px;
+    border-radius: 2px;
+    
+}
+
+.intro-text>h2{
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+
+.intro__title{
+font-family: Montserrat;
+
+Font-size: 25px;
+
+
+
+   font-family: "Montserrat";
+    color: white;
+   
+    flex-wrap: wrap;
+
+    text-transform: uppercase;
+
+    padding-left: 195px;
+
+} 
+
+
+.intro-btn{
+    Width:270px;
+    Height:60px;
+    background: rgba(176, 196, 222, 0.438);
+    color: #fff;
+    font-size: 16pt;
+    margin: 200px;
+    padding: 18px 85px;
+    text-decoration: none;
+}
+
+.about{
+    width: 100%;
+    background-color:  #f0f0f0;
+    padding-top: 30px;
+}
+
+.about__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Monsterrat',sans-serif;
+    justify-content: space-between;
+}
+
+.about__top{
+    max-width: 520px;
+}
+
+.about__title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+.about-text{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #777777;
+    margin: 20px 0;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 520px;
+    justify-content: space-between;
+}
+
+.about__btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid;
+    color: #969696;
+    background-color: 
+#F8F8F8;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.about__list{
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+}
+.about__list li{
+    list-style-type: none;
+}
+.about__icon{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    left: -10px;
+
+
+}
+.about__btn:hover{
+    background-color:grey;
+    color:white;
+
+}
+.hotel__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 90px;
+}
+.hotel-title{
+    font-family: 'Monsterrat',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color:#232323;
+
+}
+.hline{
+    height: 1px;
+    width: 237px;
+    background: #c4c4c4;
+}
+
+.hotel__btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid;
+    color: #969696;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.hotel__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.hotel__card{
+    width: 32%;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
+    border:5px solid white;
+
+}
+
+.hotel__label{
+    position: absolute;
+    top: 28px;
+    left:0;
+    padding: 10px 15px;
+    background:rgba(0,0,0,0,0,35);
+    color:#fff;
+    z-index:2;
+}
+
+.hotel__content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 2;
+    text-align: center;
+}
+
+.hotel__text{
+    font-family: 'Monsterrat',sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hotel__img{
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+}
+
+
+.hline-tour{
+    height: 1px;
+    width: 340px;
+    background: #c4c4c4;
+}
+
+
+.tour-card{
+    height: 400px;
+    width: 327px;
+    background-color: #e5e5e5;
+    flex-wrap: wrap;
+    
+}
+
+.tour-cards{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.tour-info>h3{
+    text-transform: uppercase;
+    display: flex;
+    padding-left:20px ;
+    color: #323232;
+}
+
+.tour-info>p{
+    display: flex;
+    color: #848484;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.tour-info-head{
+    display: flex;
+    height: 50px;
+    width: 280px;
+}
+
+
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url("/img/OO_PM_Drone_ChurchIsland_Twilight_0867_MASTER\ 1.png");
+    width: 100%;
+    height: 475px;
+}
+
+.form-content{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.form-content>.form-content-right>h2{
+    Font-size: 25px;
+    font-family: "Montserrat";
+    color: white;
+    flex-wrap: wrap;
+    text-transform: uppercase; 
+    margin: auto;
+    padding: auto;
+}
+
+.form-content-right{
+    display: block;
+    justify-content: column;
+}
+
+.form-content-left{
+    display: flex;
+    height: 180px ;
+    width: 275px;
+    background-color: #FFFFFF26;
+    color: #fff;
+}
+
+
+.form{
+    padding: 45px 0 200px 90px;
+}
+
+.form>input{
+    background-color: #fffFFf30;
+    color: #fff;
+    height:50px ;
+    width:270px ;
+    margin: 0 20px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.form>button{
+    height: 58px;
+    width: 170px;
+    margin: 20px;
+}
+
+.futter-logo>img{
+    display: flex;
+    padding: auto;
+}
+
+.futter-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: auto;    
+    align-items: center;
+}
+
+
+.nav-futter{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: auto;    
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 160px;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+.futter-end>a>img{
+    display: flex;
+    justify-content: space-between;
+    height: 1%;
+    width: 1%;
+}
+

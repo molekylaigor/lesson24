@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_stWfUC13fJ0JBq00UfvDQ');
+        })();
+    </script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = Math.random() * 100000 | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm('service_y1av5cl', 'template_s6jwkhf', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <img src="/img/logo.png" alt="">
+                <div>
+                    <a href="">UA</a>
+                    <a href="">RU</a>
+                </div>
+
+                <div>
+                    <p>USD 28,90</p>
+                    <p>EUR 35,00</p>
+                </div>
+                <i><a href=""><img src="/img/facebook 1 (1).png" alt=""></a></i>
+                <i><a href=""><img src="/img/instagram (1) 1.png" alt=""></a></i>
+                <i><a href=""><img src="/img/youtube 1.png" alt=""></a></i>
+                <div class="num">
+                    <p>044-537-20-07</p>
+                    <p>068-537-20-07</p>
+                    
+                </div>
+                <div>
+                    <img src="/img/smartphone 1.png" alt="">
+                </div>
+                <form action="">
+                    <input type="text"
+                    placeholder="Maistra ONLINE"
+                    >
+                    img
+                </form>
+
+                <form action="">
+                    <input type="text"
+                    placeholder="ТУРЫ ONLINE">
+                    img
+                </form>
+            </div>
+            <hr>
+            
+           
+
+            <nav>
+                <ul> 
+                    <div class="nav">
+                        <div class="img-frame">
+                            <img src="img/Frame 37.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <li>Отели</li>
+                    <li>Страны</li>
+                    <li>Авиа</li>
+                    <li>Каталог туров</li>
+                    <li>Агентам</li>
+                    <li>О нас</li>
+                    <li>Блог</li>
+                    <li>FAQ</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        
+        </div>
+    </header>
+
+            
+    
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro-text">
+                    <h2>
+                    От 300$ сутки
+                    </h2>
+                </div>
+                <div class="intro__title">
+                    <h1>
+                        новый эко-отель mastila на о. хвар в Хорватии
+                    </h1>
+                </div>
+                <a class="intro-btn" href="#">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__top">
+                    <h2 class="about__title">
+                        ВАШ ТУРОПЕРАТОР ВЫСОКОГО УРОВНЯ ОБСЛУЖИВАНИЯ.
+                    </h2>
+                    <p class="about-text">
+                        Откройте мир путешествий заново.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="about__btn">Что мы предлагаем?</a>
+                        <a href="#" class="about__btn">Консультацыя</a>
+                        
+                    </div>
+                </div>
+                <div class="about__bottom">
+                    <ul class="about__list">
+                            <li><img class="about__icon" src="img/Group 245.png" alt="">ИНДИВИДУАЛЬНЫЙ ПОДХОД</li>
+                            <li><img class="about__icon" src="img/Group 245.png" alt="">КОНСЬЕРЖ-СЕРВИС ОТДЫХ</li>
+                            <li><img class="about__icon" src="img/Group 245.png" alt="">ПРЕМИУМ-КЛАССА</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel">
+        <div class="container">
+            <div class="hotel__top">
+                <h2 class="hotel__title">
+                    ЛУЧШИЕ ОТЕЛИ
+                </h2>
+
+                <div class="arrow-content">
+                    <a href="arrow__btn"><IMG src="IMG/Group 247.png"></a>
+                    <a href="arrow__btn"><IMG src="IMG/Group 247.png"></a>
+                </div>
+
+                <div class="hline">          
+
+                </div>
+                    <a href="" class="hotel__btn about__btn">Все отели</a>
+            </div >
+        </div>
+
+        <div class="hotel__inner">
+            <div class="hotel__cards">
+                <div class="hotel__card">
+                    <div class="hotel__label">
+                        Портонови, Черногория
+                    </div>
+                    <img class="hotel__img"  src="/img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd 1.png">
+                    <div class="hotel__content">
+                        <div class="hotel-stars">
+                            <img class="hotel__icon" src="img/Frame 20.png">
+                            
+                        </div>
+                        <div class="hotel__text">
+                            One&Only Portonovi
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel__card">
+                    <div class="hotel__label">
+                        Портонови, Черногория
+                    </div>
+                    <img class="hotel__img"  src="/img/Mask Group.png">
+                    <div class="hotel__content">
+                        <div class="hotel-stars">
+                            <img class="hotel__icon" src="img/Frame 20.png">
+                            
+                        </div>
+                        <div class="hotel__text">
+                            One&Only Portonovi
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel__card">
+                    <div class="hotel__label">
+                        Портонови, Черногория
+                    </div>
+                    <img class="hotel__img"  src="/img/Mask Group2.png">
+                    <div class="hotel__content">
+                        <div class="hotel-stars">
+                            <img class="hotel__icon" src="img/Frame 20.png">
+                            
+                        </div>
+                        <div class="hotel__text">
+                            One&Only Portonovi
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="tour">
+            <div class="container">
+                <div class="hotel__top">
+                    <h2 class="hotel__title">
+                        АКТУАЛЬНЫЕ ТУРЫ
+                    </h2>                   
+                   <div class="hline-tour">          
+                    </div>
+                    <a href="" class="hotel__btn about__btn">Все отели</a>
+                </div >
+            </div>
+            
+                <div class="tour-cards">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="/img/mandarina 2.png" alt="">
+                        </div>
+                        <div class="tour-info">
+                            <h3>
+                                One&Only Portonovi
+                            </h3>
+
+                            <p>
+                                первый ультрароскошный курорт One&Only в Европe
+                            </p>
+                            <hr>
+
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="/img/mandarina 2.png" alt="">
+                        </div>
+                        <div class="tour-info">
+                            <h3>
+                                Зимовка в Regent Porto Montenegro
+                            </h3>
+
+                            <p>
+                                це втілення високого стилю, в якому поєднується зручність...
+                            </p>
+                            <hr>
+
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="/img/mandarina 2.png" alt="">
+                        </div>
+                        <div class="tour-info">
+                            <div class="tour-info-head">
+                                <h3>
+                                    Лечение в Naftalan с авиа Киев-Загреб-Киев
+                                </h3>
+                            </div>
+                            <p>
+                                первый бренд, воплотивший оригинальную концепцию пляжных...
+                            </p>
+                            <hr>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="form-inner">
+            <div class="container">
+                    
+                    <div class="form-content">
+                <div class="form-content-right">
+                    
+                    <h2>
+                        ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ СПЕЦИАЛИСТА
+                    </h2>
+                    
+                    <p>
+                        Оставьте данные прямо сейчас, и мы свяжемся с вами в ближайшее время
+                    </p>
+                </div>
+                <div class="form-content-left">
+                    <p>
+                        Срок действия эксклюзивных предложений ограничен, поэтому узнавайте подробности заранее:
+                    </p>
+                </div>
+                </div>
+            <form class="form" id="contact-form" action="">
+                <input type="hidden" name="contact_number">
+
+                <input type="text"  name="name" placeholder="Имя"> 
+                <input type="Email" name="reply_to"  placeholder="Email">
+                <input type="text" name="phone" placeholder="Телефон">
+                <button type="submit">
+                    Отправить
+                </button>
+            </form>
+            </div>
+        </div>
+
+
+        <div class="futter">
+            <div class="container">
+                <div class="futter-logo">
+                    <img src="/img/logo.png" alt="">
+
+                    <div class="nav">
+                        <nav class="nav-right">           
+                            <li>Отели</li>
+                            <li>Страны</li>
+                            <li>Maistra online</li>
+                            <li>Туры online</li>    
+                        </nav>
+
+                        <nav class="nav-left">
+                            <li>Агентам</li>
+                            <li>О нас</li>
+                            <li>Блог</li>
+                        </nav>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="futter-end">
+                    
+                    <p>2002-2021 Туроператор Valanta Travel Company</p>
+                    
+                    <a href=""><img src="/img/facebook-f-brands.svg" alt=""></a>
+                    <a href=""><img src="/img/instagram-brands.svg" alt=""></a>
+                    <a href=""><img src="/img/youtube-brands.svg" alt=""></a>
+                    
+                </div>
+            </div>
+        </div>
+</body>
+</html>
